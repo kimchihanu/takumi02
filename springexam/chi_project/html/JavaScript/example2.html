@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Info from API</title>
+</head>
+
+<body>
+	<label for="inputNumber">Input a number:</label>
+	<input type="text" id="inputNumber" name="inputNumber">
+	<button id="submitBtn">Find</button>
+	<div id="output"></div>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('#submitBtn').click(function () {
+				const inputVal = $('#inputNumber').val();
+				if (!$.isNumeric(inputVal)) {
+					alert("please enter a number");
+					return;
+				}
+				$.ajax({
+					type: 'GET',
+					dataType: "json",
+					url: 'https://jsonplaceholder.typicode.com/todos/' + inputVal,
+					success: function (data) {
+						$('#output').empty().append(
+							'<p>User ID: ' + data.userId + '</p>' +
+							'<p>ID: ' + data.id + '</p>' +
+							'<p>Title: ' + data.title + '</p>' +
+							'<p>Completed: ' + data.completed + '</p>'
+						);
+					},
+					error: function () {
+						$('#output').empty().append('<p>Error</p>');
+					}
+				});
+			});
+		});
+	</script>
+</body>
+
+</html>

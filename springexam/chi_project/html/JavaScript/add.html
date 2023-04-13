@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<input type ="text" id = "num1"/>
+<input type="text" id ="num2"/>
+<button type="button" value="add" onclick="add()">ADD</button>
+<script>
+	
+	function add(){
+	var num1 = document.getElementById("num1").value;
+	var num2 = document.getElementById("num2").value;
+	var result = Number(num1) + Number(num2);
+		document.write(result)
+	}
+</script>
+</html>

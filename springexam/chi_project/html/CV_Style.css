@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+}
+html {
+	font-family: "Poppins", sans-serif;
+  }
+body{
+	margin: 0;
+	padding:0;
+	background-color: gainsboro;
+}
+ul{
+	list-style: none;
+	padding-left: 10px;
+}
+main{
+	margin: 1.5rem;
+	display: grid;
+	grid-template-columns:30% 1fr;
+	grid-gap: 1rem;
+	filter: drop-shadow(0 0 0.2rem rgb(137, 134, 134));
+}
+.personal,
+.skills,
+.languages{
+	line-height:2 ;
+	font-size: medium;
+
+}
+.skills, .languages{
+	padding-left: 1rem;
+}
+.skills p, .languages p{
+	margin: 0;
+	display:block;
+}
+progress{
+	font-size: medium;
+}
+.left{
+	background-color: rgb(255, 255, 255);
+}
+.left-image {
+	position: relative;
+}
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+i{
+	padding: 0.5rem;
+}
+.left-image h1{
+	position: absolute;
+	bottom: 0;
+	background-color: darkcyan;
+	color: whitesmoke;
+	text-align: center;
+	border-style: inset;
+	padding: 0.5rem;
+	font-size: 100%;
+}
+.right{
+	padding-left: 1rem;
+	font-size: large;
+}
+
+.edu,.exp, .certification,.hobbies{
+	margin: 0 0 1.5rem 0;
+	padding: 1rem;
+	background-color:rgb(255, 255, 255);
+	line-height: 2;
+}
+.hobbies li{
+	display: inline-block;
+	width: 200px;
+	background-color: white;
+	text-align: center;
+	margin-left: 0.5rem;
+	border: 3px solid lightseagreen;
+	border-radius: 50%;
+}
+.current{
+	background-color:rgb(255, 255, 255);
+	color: darkcyan;
+	padding: 0.4rem;
+	border-radius: 3px;
+}
+
+.date{
+	color:darkcyan ;
+}
+
+footer {
+	background-color:darkcyan ;
+	text-align: center;
+	padding: 1rem 0;
+	line-height: 0;
+}

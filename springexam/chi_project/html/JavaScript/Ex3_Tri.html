@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<link rel="stylesheet" href="./bootstrap.min.css"/>
+	<script src="Ex3_Tri.js"> </script>
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+	<h3 class="col-md-12">基本的な演算子</h3>
+	<div class="col-md-12">
+		<input type="text" id="addNum1"/>
+		<span>＋</span>
+		<input type="text" id="addNum2"/>
+		<button type="button" value="add" onclick="calculationInstance.add()">ADD</button>
+		<p id="addMessage"></p>
+	</div>
+	
+	<div class="col-md-12">
+		<input type="text" id="subtractNum1"/>
+		<span>－</span>
+		<input type="text" id="subtractNum2"/>
+		<button type="button" value="subtract" onclick="calculationInstance.subtract()">SUBSTRACT</button>
+		<p id="subtractMessage"></p>
+	</div>
+	
+	<div class="col-md-12">
+		<input type="text" id="multiplyNum1"/>
+		<span>＊</span>
+		<input type="text" id="multiplyNum2"/>
+		<button type="button" value="multiply" onclick="calculationInstance.multiply()">MULTIPLY</button>
+		<p id="multiplyMessage"></p>
+	</div>
+	
+	<div class="col-md-12">
+		<input type="text" id="divideNum1"/>
+		<span>／</span>
+		<input type="text" id="divideNum2"/>
+		<button type="button" value="divide" onclick="calculationInstance.divide()">DIVIDE</button>
+		<p id="divideMessage"></p>
+	</div>
+	
+	<div class="col-md-12">
+		<p id="resultArrayMessage"></p>
+		<p id="largestResultMessage"></p>
+	</div>
+	
+</body>
+</html>

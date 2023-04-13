@@ -1,0 +1,53 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../bootstrap.min.css">
+</head>
+<body>
+
+	<div id="header">
+	<div class ="header-nav">
+		<ul>
+			<li><a href="about.html">HOME</a></li>
+			<li><a href="takumi.com.vn">CAMPAIN</a></li>
+			<li><a href="#footer">CONTACT</a></li>
+		</ul>
+	</div>
+	</div>
+	<div id="common">
+		<div id="nav">
+			<span>SHOP MENU</span>
+			<ul>
+				<li><a href = "Sample.html"target=_blank><i class="fa fa-home" aria-hidden="true"></i> &nbsp;HOMEPAGE</a></li>
+				<li><a href = "about.html" target=_blank><i class="fa-sharp fa-solid fa-circle-info"></i> &nbsp;ABOUT</a></li>
+				<li><a href="https://www.google.co.jp/mail/help/intl/ja/about.html?vm=r"target=_blank><i class="fa-sharp fa-solid fa-headset"></i> &nbsp;CONTACT</a></li>
+				<li><a href="https://mail.google.com/mail/u/0/?pli=1#inbox"target=_blank><i class="fa-sharp fa-solid fa-right-to-bracket"></i> &nbsp;SIGNUP</a></li>
+			</ul>
+		</div>
+		<div id="content">
+			<div class="pr1"><h2>Sữa rửa mặt</h2>
+			<span class ="block"><img src="31LS2D1pp8L._AC_.jpg"></span>Giá: 150,000VND
+			</div>
+			<div class="pr2"><h2>Tẩy da chết</h2>
+			<span class ="block"><img src="51tiXsqp8TL._AC_SL1000_.jpg"></span>Giá: 120,000VND
+			</div>
+			<div class="pr3"><h2>Kem chống nắng</h2>
+			<span class ="block"><img src="71dmK5sqZlL._AC_SL1500_.jpg"></span>Giá: 130,000VND
+			</div><br>
+			<div class="pr4"><h2>Thuốc nhỏ mắt</h2>
+			<span class ="block"><img src="51YDW+J9cIL._AC_.jpg"></span>Giá: 60,000VND
+			</div>
+			<div class="pr5"><h2>Bổ não</h2>
+			<span class ="block"><img src="61+c3m98Z-L._AC_SL1000_.jpg"></span>Giá: 500,000VND
+			</div>
+			<div class="pr6"><h2>DHA</h2>
+			<span class ="block"><img src="81gdfDLwqEL._AC_SL1500_.jpg"></span>Giá: 80,000VND
+	</div>
+	</div>
+	<div id="footer">THANK YOU FOR YOUR PURCHASE!</div>
+</body>
+</html>
