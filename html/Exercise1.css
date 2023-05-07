@@ -1,0 +1,23 @@
+div#lesson{
+	color: darkblue;
+	font-weight: bold;
+	font-size:150%;
+	text-align: center;
+}
+div.a{
+	text-decoration:underline;
+	font-size:100%;
+	text-decoration:underline;
+	font-weight: bold;
+}
+div.b{
+	font-size: 80%;
+}
+div.c{
+	color: blue;
+	font-size:90%;
+}
+span{
+	color:blue;
+	font-weight: bold;
+}
